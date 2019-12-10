@@ -17,11 +17,17 @@
     },
     "browser_action": {
         "default_icon": {
-            "512": "images/incognito.png"
+            "16": "images/icons/incognito-16.png",
+            "32": "images/icons/incognito-32.png",
+            "48": "images/icons/incognito-48.png",
+            "128": "images/icons/incognito-128.png"
         }
     },
     "icons": {
-        "512": "images/incognito.png"
+        "16": "images/icons/incognito-16.png",
+        "32": "images/icons/incognito-32.png",
+        "48": "images/icons/incognito-48.png",
+        "128": "images/icons/incognito-128.png"
     },
     "options_page": "options.html", // For < Chrome 40
     "options_ui": {
