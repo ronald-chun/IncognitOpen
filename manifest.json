@@ -1,0 +1,27 @@
+{
+    "name": "IncognitOpen",
+    "version": "1.0",
+    "description": "Open current link in incognito mode",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "512": "images/incognito.png"
+        }
+    },
+    "icons": {
+        "512": "images/incognito.png"
+    },
+    "options_page": "options.html"
+}
