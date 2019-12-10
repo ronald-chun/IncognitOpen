@@ -22,7 +22,7 @@ chrome.runtime.onInstalled.addListener(function () {
     chrome.contextMenus.create({
         id: "incognitOpenRightClickMenu",
         title: "Open in Incognito Mode",
-        contexts: ["all"],
+        contexts: ["page"],
         enabled: true
     });
 
